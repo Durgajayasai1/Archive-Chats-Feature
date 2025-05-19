@@ -1,8 +1,5 @@
 # Archive chats
 
-```
 ## Archive Chats Feature using Flutter Framework
 
-- For time being I ssed DummyJson For Chat Profiles
-
-```
+- For the time being, I used DummyJSON as the source for chat profiles.
