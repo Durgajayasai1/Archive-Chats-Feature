@@ -151,6 +151,7 @@ class ChatScreenState extends State<ChatScreen> {
                         final isSelected = selectedIds.contains(user.id);
                         return AnimatedContainer(
                           duration: Duration(milliseconds: 300),
+                          curve: Curves.easeInOut,
                           color:
                               isSelected
                                   ? Colors.blue.withValues(alpha: 0.2)

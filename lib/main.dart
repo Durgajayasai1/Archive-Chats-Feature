@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Archive Chats',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.grey.shade900,
-        appBarTheme: AppBarTheme(color: Colors.blueGrey.shade700),
+        appBarTheme: AppBarTheme(color: Colors.blueGrey.shade900),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey.shade900),
       ),
       home: const ChatScreen(),
